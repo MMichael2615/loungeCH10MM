@@ -56,6 +56,10 @@ h2 {
 #body h1 {
   font-family: fantasy;
 }
+footer { font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;}
 
 #elixirs {
   border-width: thin;
@@ -103,3 +107,28 @@ a:link {
 a:visited {
   color: #333333;
 }
+
+
+#directions {  box-sizing: content-box;
+  border: thin solid #007e7e;
+  width: 50%;
+  padding: 0px, 20px, 20px, 20px;
+  margin: 0px, 0px, 0px, 20px;
+  text-align: center;
+  background: white url(images/cocktail.gif) repeat-x;
+  }
+
+#directions2 {box-sizing: border-box;  border: thin solid #007e7e;
+  
+    width: 40%;
+    padding: 0px, 30px, 30px, 30px;
+    margin: 0px, 0px, 0px, 100px;
+    text-align: center;
+    background: white url(images/cocktail.gif) repeat-x;
+    }
+.miles {color: red;
+  font: bold/1.6em Verdana, Helvetica, Arial, sans-serif;}
+
+  .dirpage:link {color:blue;}
+  .dirpage:visited {color:rgb(255, 0, 0);}
+  .dirpage:hover {color:rgb(255, 0, 136);}
