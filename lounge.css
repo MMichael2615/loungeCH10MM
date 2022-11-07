@@ -132,3 +132,5 @@ a:visited {
   .dirpage:link {color:blue;}
   .dirpage:visited {color:rgb(255, 0, 0);}
   .dirpage:hover {color:rgb(255, 0, 136);}
+
+  .font{font-family: "Audiowide", sans-serif;}
